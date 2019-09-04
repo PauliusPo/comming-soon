@@ -42,8 +42,19 @@ footer {
     display: inline-block;
     width: 1200px;
     margin-left: calc( (100% - 1200px) / 2 );
-    background-color: red;
+    
 }
+.container > .left{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    background-color: green;
+}
+.container > .right{
+    display: inline-block;
+    width: 40%;
+    float: right;
+    background-color: orange;
 
 @media (max-width: 1300px) {
     .container{
@@ -65,22 +76,22 @@ footer {
     .container{
         width: 500px;
         margin-left: calc( (100% - 500px) / 2);
-        background-color: pink;
+        
     }
 
 }
 @media (max-width: 600px) {
     .small-container{
-        width: 100%;
-        margin-left: 0px;
-        background-color: lime;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        
     }
 }
 @media (max-width: 800px) {
     .container{
         width: 100px;
         margin-left: 0px; 
-        background-color: pink;
+        
     }
 
 }
