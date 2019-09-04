@@ -1,0 +1,87 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero {
+    display: inline-block;
+    width: 100%;
+    background-color: #03A9F5;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.main-content {
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: #03A9F5;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.small-container {
+    display: inline-block;
+    width: 700px;
+    margin-left: calc( (100% - 700px) / 2 );
+    background-color: red;
+}
+
+.container {
+    display: inline-block;
+    width: 1200px;
+    margin-left: calc( (100% - 1200px) / 2 );
+    background-color: red;
+}
+
+@media (max-width: 1300px) {
+    .container{
+        width: 900px;
+        margin-left: calc( (100% - 900px) / 2);
+        background-color: red;
+    }
+
+}
+@media (max-width: 1000px) {
+    .container{
+        width: 700px;
+        margin-left: calc( (100% - 700px) / 2);
+        background-color: yellow;
+    }
+
+}
+@media (max-width: 800px) {
+    .container{
+        width: 500px;
+        margin-left: calc( (100% - 500px) / 2);
+        background-color: pink;
+    }
+
+}
+@media (max-width: 600px) {
+    .small-container{
+        width: 100%;
+        margin-left: 0px;
+        background-color: lime;
+    }
+}
+@media (max-width: 800px) {
+    .container{
+        width: 100px;
+        margin-left: 0px; 
+        background-color: pink;
+    }
+
+}
+    
